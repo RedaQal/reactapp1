@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bg-color-1: #1f242f;
+  --bg-color-2: #191e24;
+  --btn-text-color: #fc7613;
+  --main-color: #feffff;
+  --secondary-color:#8d949e;
+  --btn-bg-color: #25343a;
+  --btn-bg-active-color: #7c8798;
+}
+
+body, html, #root{
+  font-family: sans-serif;
+  height: 100%;
+  background-color: #141519;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background: linear-gradient(154deg, var(--bg-color-1), var(--bg-color-2));
+  width: 350px;
+  padding: 32px;
+  border-radius: 25px;
+}
+
+.card-header{
+  margin-bottom: 2rem;
+}
+
+.card-icon{
+  color: #f97c18;
+}
+
+.round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  font-size: 1.1rem;
+  background-color: var(--btn-bg-color);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.card-body{
+  margin-bottom: 2.5rem; 
+}
+
+.card-title{
+  color: var(--main-color);
+  margin-bottom: .8rem;
+}
+
+.card-text{
+  color: var(--secondary-color);
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+
+.rating-button{
+  border: 0;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.rating-button:hover {
+  background-color: var(--btn-text-color);
+  color: white;
+}
+
+.active {
+  background-color: var(--btn-bg-active-color);
+  color: #fff;
+}
+
+.rating-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.4rem;
+}
+
+.card-button {
+  display: block;
+  width: 100%;
+  background-color: var(--btn-text-color);
+  border: 0;
+  padding: .7rem;
+  border-radius: 25px;
+  color: white;
+  letter-spacing: 3px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.card-button:hover{
+  color: var(--btn-text-color);
+  background-color: #fff;
+}
+.thankIcon{
+  margin-bottom: 2rem;
+}
+.thanksRating{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.thanksRating p{
+  display: block;
+  color: rgb(194 101 31);
+  background-color: rgba(91, 88, 88, 0.607);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.thanks-card{
+  text-align: center;
+}
