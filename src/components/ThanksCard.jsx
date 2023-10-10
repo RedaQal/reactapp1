@@ -1,6 +1,6 @@
 import React from 'react'
-import ThanksIcon from './thanksIcon'
-import ThanksRating from './thanksRating'
+import ThanksIcon from './ThanksIcon'
+import ThanksRating from './ThanksRating'
 import CardBody from './CardBody'
 
 function ThanksCard({rating}) {
