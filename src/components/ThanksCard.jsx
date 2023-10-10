@@ -1,5 +1,5 @@
 import React from 'react'
-import ThanksIcon from './thanksicon'
+import ThanksIcon from './thanksIcon'
 import ThanksRating from './thanksRating'
 import CardBody from './CardBody'
 
